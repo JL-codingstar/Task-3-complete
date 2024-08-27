@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5deb3;
+    margin: 0;
+    padding: 0;
+    color: #611515;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.store-intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.store-intro img {
+    width: 100%; 
+    max-width: 1200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto; 
+}
+
+
+.store-info {
+    text-align: center; 
+    margin: 20px auto; 
+    max-width: 800px; 
+}
+
+.store-info h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.store-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.store-info button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.store-info button:hover {
+    background-color: #555;
+}
+
+
+.store-intro, .about-us, .our-products, .video-preview, .available-items, .contact-us, .footer {
+    padding: 20px;
+    text-align: center; 
+}
+
+.store-intro img, .footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex !important;
+    flex-wrap: nowrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 10px;
+    margin: 0; 
+    max-width: 1200px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 250px; 
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd; 
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #555; 
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;  
+}
+
+.new-price {
+    font-weight: bold;
+    color: green; 
+}
+
+.available-items table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #333; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333; 
+}
+
+form {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+form input, form textarea {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    background-color: transparent; 
+    padding-bottom: 20px; 
+}
+
+.footer .connect-text {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
